@@ -34,7 +34,7 @@ To get a taste of what BrainFuck programs look like, here's a simple script that
 >+++++++++[<++++++++>-]<.>+++++++[<++++>-]<+.+++++++..+++.[-]>+++++++++++[<++++>-]<.>++++[<--->-]<.>+++++++++++[<+++++>-]<.>++++++++[<+++>-]<.+++.------.--------.[-]>++++++++[<++++>-]<+.
 ```
 
-That's a bit intimidating, so let's break it down a bit. We know that each `.` outputs the byte, so that seems to be a good place to split the code.
+😅 That's a bit intimidating, so let's break it down a bit. We know that each `.` outputs the byte, so that seems to be a good place to split the code.
 
 ## Deciphering "Hello"
 
@@ -65,7 +65,7 @@ Next, `+++++++..` increments the current (first) byte by 7 to make it 108 and th
 
 `+++.` increments the current (first) bite by 3 to make it 111 and then prints it as 'o'.
 
-At this point, we've achieved the "Hello" in "Hello, World!" (yay!). Take a moment to pat yourself on the back before we continue. 
+At this point, we've achieved the "Hello" in "Hello, World!" (yay! 💃🏻). Take a moment to pat yourself on the back before we continue. 
 
 ## The Rest of the World
 
@@ -86,6 +86,8 @@ Likewise, `>++++[<--->-]<.` prints a space(' ') using a loop to decrement the fi
 In the same manner, `+++.`, `------.` and `--------.` print 'r' (111 + 3 = 114), 'l' (114 -  6 = 108) and 'd' (108 - 8 = 100), respectively.
 
 A `[-]>++++++++[<++++>-]<+.` at the end makes the first byte 0 and the second byte 8, then loops until the first byte is 33 (4*8 + 1) to print the final '!'.
+
+🎉 Congratulations! 🎉 We've succeeded in writing "Hello, World!" in BrainFuck! 
 
 # Surviving BrainFuck
 
