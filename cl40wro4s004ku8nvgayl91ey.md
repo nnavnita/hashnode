@@ -230,7 +230,7 @@ pointer     ^
 
 The above script (without comments) is **186** characters long. [The shortest "Hello, World!" code](https://codegolf.stackexchange.com/questions/55422/hello-world/163590#163590) at the time of writing this article comprises **72** characters.
 
-If you're looking for an online compiler to run these programs, and others you may write, you can [Try it Online](https://tio.run/#brainfuck)!
+If you'd like to run these programs (and others), you can [Try it Online](https://tio.run/#brainfuck)!
 
 
 
