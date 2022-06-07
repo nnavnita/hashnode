@@ -91,7 +91,7 @@ A `[-]>++++++++[<++++>-]<+.` at the end makes the first byte 0 and the second by
 
 # Surviving BrainFuck
 
-To survive BrainFuck, we can add some comments so we know WTF is going on (BrainFuck compilers will ignore them).
+To survive BrainFuck, we can add some comments so we know WTF is going on (BrainFuck interpreters will ignore them).
 
 ## Writing Comments
 
